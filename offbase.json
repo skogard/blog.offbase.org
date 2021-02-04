@@ -21,7 +21,7 @@
   "settings": {
     "BASE": "",
     "SRC": "/home/src",
-    "DEST": "/home/blog",
+    "DEST": "/home",
     "NAME": "Offpress",
     "THEME": "/lib/theme",
     "PAGE": {
