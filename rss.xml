@@ -4,7 +4,7 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Feb 2021 06:33:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Feb 2021 06:43:53 GMT</lastBuildDate>
         <item>
             <title><![CDATA[Offpress: A distributed browser CMS over Git]]></title>
             <description><![CDATA[<p><img src="https://blog.offbase.org/assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c" alt="88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c"></p>
@@ -27,7 +27,7 @@
 <hr>
 <h1 id="how-does-it-all-work">How does it all work?</h1>
 <p>Here&#39;s a video where you can quickly understand how this thing works (Note that Offbase is the engine that powers Offpress, and in this video I simply mention Offpress as &quot;blogging package&quot;):</p>
-<iframe src="https://www.youtube.com/embed/pVrkrToSFyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/pVrkrToSFyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <p>If you&#39;re familar with static site generators, Offpress is essentially a static site generator in a browser. Being able to edit, build, and deploy static sites directly inside a browser is a gamechanger because it solves the one problem traditional static site generators had: Only developers can use them because of its complexity. Unless you are a developer, you can&#39;t easily use static site generators because the setup process and understanding the structure is not so easy. Also, the deployment step is definitely not easy for developers since you have to do it all in the terminal.</p>
 <p>Of course, there are some services that provide a better UX on top of the traditional static site generators, but all of these services operate a build server behind the scenes, which means at some point you will need to start paying them since that&#39;s their business model.</p>
@@ -75,7 +75,7 @@
 <li>Release Offbase: I still haven&#39;t explained in detail how Offbase works. But Offbase is a platform that lets you build apps like Offpress. I need to write some documentation on this too, so people can build their own <strong>distributed web apps powered by git</strong>.</li>
 </ol>
 <p>There are more, but I thought it&#39;s best to release Offpress first, since this is an end user app that anyone can use immediately.</p>
-<p>I&#39;ve spent a lot of time designing the core engine (Offbase) to make sure anything powered by Offbase (including Offpress) is extremely extensible. I will explain all of this in detail over the coming weeks through documentations and blog posts (which I will share through the email newsletter, sign up if you haven&#39;t: <img src="https://docs.offbase.org/invite/" alt="https://docs.offbase.org/invite/">) so stay tuned. </p>
+<p>I&#39;ve spent a lot of time designing the core engine (Offbase) to make sure anything powered by Offbase (including Offpress) is extremely extensible. I will explain all of this in detail over the coming weeks through documentations and blog posts (which I will share through the email newsletter, sign up if you haven&#39;t: <a href="https://docs.offbase.org/invite/">https://docs.offbase.org/invite/</a>) so stay tuned. </p>
 <p>That said, everything is already completely open, so those of you who are adventurous can actually build anything you want, including something like Offpress. Check out the Offpress source code. Just a hint:</p>
 <ul>
 <li>See <a href="https://github.com/offbaseorg/offpress">https://github.com/offbaseorg/offpress</a> for the actual app logic</li>
@@ -85,7 +85,7 @@
 ]]></description>
             <link>https://blog.offbase.org/post/offpress-a-distributed-browser-cms-over-git</link>
             <guid isPermaLink="true">https://blog.offbase.org/post/offpress-a-distributed-browser-cms-over-git</guid>
-            <pubDate>Thu, 04 Feb 2021 06:33:38 GMT</pubDate>
+            <pubDate>Thu, 04 Feb 2021 06:43:03 GMT</pubDate>
         </item>
     </channel>
 </rss>

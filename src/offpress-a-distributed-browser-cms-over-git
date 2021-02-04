@@ -5,7 +5,7 @@ description: >-
   Offpress is a distributed blogging engine powered by git, that works directly
   in your browser.
 image: assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c
-updated: 1612420418079
+updated: 1612420983414
 draft: false
 ---
 ![88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c](assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c)
@@ -36,7 +36,7 @@ Offbase takes care of the integration part seamlessly so you don't have to do an
 
 Here's a video where you can quickly understand how this thing works (Note that Offbase is the engine that powers Offpress, and in this video I simply mention Offpress as "blogging package"):
 
-<iframe src="https://www.youtube.com/embed/pVrkrToSFyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/pVrkrToSFyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 If you're familar with static site generators, Offpress is essentially a static site generator in a browser. Being able to edit, build, and deploy static sites directly inside a browser is a gamechanger because it solves the one problem traditional static site generators had: Only developers can use them because of its complexity. Unless you are a developer, you can't easily use static site generators because the setup process and understanding the structure is not so easy. Also, the deployment step is definitely not easy for developers since you have to do it all in the terminal.
 
@@ -114,7 +114,7 @@ Just to be clear, Offpress is just an app release. There are many things on the 
 
 There are more, but I thought it's best to release Offpress first, since this is an end user app that anyone can use immediately.
 
-I've spent a lot of time designing the core engine (Offbase) to make sure anything powered by Offbase (including Offpress) is extremely extensible. I will explain all of this in detail over the coming weeks through documentations and blog posts (which I will share through the email newsletter, sign up if you haven't: ![https://docs.offbase.org/invite/](https://docs.offbase.org/invite/)) so stay tuned. 
+I've spent a lot of time designing the core engine (Offbase) to make sure anything powered by Offbase (including Offpress) is extremely extensible. I will explain all of this in detail over the coming weeks through documentations and blog posts (which I will share through the email newsletter, sign up if you haven't: [https://docs.offbase.org/invite/](https://docs.offbase.org/invite/)) so stay tuned. 
 
 That said, everything is already completely open, so those of you who are adventurous can actually build anything you want, including something like Offpress. Check out the Offpress source code. Just a hint:
 
