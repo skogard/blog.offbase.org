@@ -1,11 +1,11 @@
 ---
 permalink: offpress-a-distributed-browser-cms-over-git
-title: 'Offpress: A distributed browser CMS over Git'
+title: 'Offpress: A portable distributed CMS in a browser'
 description: >-
   Offpress is a distributed blogging engine powered by git, that works directly
   in your browser.
 image: assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c
-updated: 1612423272742
+updated: 1612423818520
 draft: false
 ---
 ![88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c](assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c)
@@ -150,3 +150,5 @@ To stay in touch, here are the options:
 2. Twitter: [https://twitter.com/skogard](https://twitter.com/skogard) - I might start sharing the whole development process openly in realtime so if you're interested in participating, or have questions, or just want to provide feedback, follow me.
 
 p.s. If you ever start blogging with Offpress, please make sure to tag me or tag #offpress and I can share them with others :)
+
+---
