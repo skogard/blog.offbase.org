@@ -5,7 +5,7 @@ description: >-
   Offpress is a distributed blogging engine powered by git, that works directly
   in your browser.
 image: assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c
-updated: 1612417359709
+updated: 1612420166992
 draft: false
 ---
 ![88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c](assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c)
@@ -106,10 +106,18 @@ Windows : Powerpoint = Offbase : Offpress
 
 # Next Steps
 
-This is the first step.
+Just to be clear, Offpress is just an app release. There are many things on the to-do list including:
 
-I've spent a lot of time designing the core engine (Offbase) to make sure anything powered by Offbase (including Offpress) is extremely extensible. And if you look into the source code there's a lot going on.
+1. Release Offpress documentation: So you can build your own themes, build your own plugins, and even build your own custom CMS fork!
+2. Release Offbase: I still haven't explained in detail how Offbase works. But Offbase is a platform that lets you build apps like Offpress. I need to write some documentation on this too, so people can build their own **distributed web apps powered by git**.
 
-I will explain all of this in detail over the coming weeks through documentations and blog posts (which I will share through the email newsletter, sign up if you haven't: https://docs.offbase.org/invite/) so stay tuned. That said, everything is already open, so those of you who are adventurous should be able to easiliy check out the source code and build your own Offpress fork, or your own themes.
+There are more, but I thought it's best to release Offpress first, since this is an end user app that anyone can use immediately.
 
-Oh, also I might start tweeting short snippets about the whole development process in realtime so if you're interested in participating, or if you have any questions or want to provide feedback, be sure to follow me on Twitter: https://twitter.com/skogard
+I've spent a lot of time designing the core engine (Offbase) to make sure anything powered by Offbase (including Offpress) is extremely extensible. I will explain all of this in detail over the coming weeks through documentations and blog posts (which I will share through the email newsletter, sign up if you haven't: ![https://docs.offbase.org/invite/](https://docs.offbase.org/invite/)) so stay tuned. 
+
+That said, everything is already completely open, so those of you who are adventurous can actually build anything you want, including something like Offpress. Check out the Offpress source code. Just a hint:
+
+- See https://github.com/offbaseorg/offpress for the actual app logic
+- See https://github.com/offbaseorg/offpress-bootstrap for the bootstrap config. THIS is the file you download, which in turn triggers downloads of all the dependencies.
+
+Also, I might start tweeting short snippets about the whole development process in realtime so if you're interested in participating, or if you have any questions or want to provide feedback, be sure to follow me on Twitter: https://twitter.com/skogard
