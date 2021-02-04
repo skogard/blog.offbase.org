@@ -4,7 +4,7 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Feb 2021 07:34:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Feb 2021 07:37:32 GMT</lastBuildDate>
         <item>
             <title><![CDATA[A distributed CMS in a browser]]></title>
             <description><![CDATA[<p><img src="https://blog.offbase.org/assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c" alt="88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c"></p>
@@ -96,13 +96,14 @@
 <ol>
 <li>Newsletter: <a href="https://docs.offbase.org/invite/">https://docs.offbase.org/invite/</a> - I will send occasional newsletters with the blog posts.</li>
 <li>Twitter: <a href="https://twitter.com/skogard">https://twitter.com/skogard</a> - I might start sharing the whole development process openly in realtime so if you&#39;re interested in participating, or have questions, or just want to provide feedback, follow me.</li>
+<li>RSS: <a href="https://blog.offbase.org/rss.xml">https://blog.offbase.org/rss.xml</a> follow the offbase blog with an RSS reader (yes, Offpress automatically generates RSS feeds too!)</li>
 </ol>
 <p>p.s. If you ever start blogging with Offpress, please make sure to tag me or tag #offpress and I can share them with others :)</p>
 <hr>
 ]]></description>
             <link>https://blog.offbase.org/post/offpress-a-distributed-browser-cms-over-git</link>
             <guid isPermaLink="true">https://blog.offbase.org/post/offpress-a-distributed-browser-cms-over-git</guid>
-            <pubDate>Thu, 04 Feb 2021 07:34:10 GMT</pubDate>
+            <pubDate>Thu, 04 Feb 2021 07:37:24 GMT</pubDate>
         </item>
     </channel>
 </rss>
