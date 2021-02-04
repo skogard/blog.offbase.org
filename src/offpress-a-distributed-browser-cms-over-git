@@ -1,11 +1,11 @@
 ---
 permalink: offpress-a-distributed-browser-cms-over-git
-title: A distributed CMS in a browser
+title: A distributed blog engine in a browser
 description: >-
   Offpress is a distributed blogging engine powered by git, that works directly
   in your browser.
 image: assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c
-updated: 1612426786099
+updated: 1612434417256
 draft: false
 ---
 ![88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c](assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c)
