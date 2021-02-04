@@ -5,7 +5,7 @@ description: >-
   Offpress is a distributed blogging engine powered by git, that works directly
   in your browser.
 image: assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c
-updated: 1612434417256
+updated: 1612457107396
 draft: false
 ---
 ![88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c](assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c)
@@ -149,9 +149,7 @@ You can do this inside the settings page too.
 
 # Next Steps
 
-This Offpress release is the first step. For starters, Offpress itself is very early so there's lots of room for optimization. 
-
-Also I have many things on the to-do list including:
+This Offpress release is the first step. For starters, Offpress itself is very early so there's lots of room for optimization. Also I have many things on the to-do list including:
 
 1. **Release Offpress documentation:** So you can build your own themes, build your own plugins, and even build your own custom CMS fork!
 2. **Release Offbase:** I still haven't explained in detail how [Offbase](https://offbase.org) works, as well as its APIs. Offbase is a platform that lets you build apps like Offpress, and the API itself is already completely open for anyone to build on. But I need to write some documentation on this too, so people can build their own **distributed web apps powered by git** easily. (Or you can look into the Offpress source code and reverse engineer if you can't wait until I release the docs)
