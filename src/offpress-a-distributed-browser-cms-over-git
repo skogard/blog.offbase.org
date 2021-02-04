@@ -1,16 +1,16 @@
 ---
 permalink: offpress-a-distributed-browser-cms-over-git
-title: 'Offpress: A portable distributed CMS in a browser'
+title: 'Offpress: A distributed CMS in a browser'
 description: >-
   Offpress is a distributed blogging engine powered by git, that works directly
   in your browser.
 image: assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c
-updated: 1612423818520
+updated: 1612423942481
 draft: false
 ---
 ![88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c](assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c)
 
-Offpress is a distributed blogging engine powered by [git](https://git-scm.com/), that works directly in your browser. You can try it here: https://offpress.app
+Offpress is a self-contained, distributed blogging engine powered by [git](https://git-scm.com/), that works directly in your browser. You can try it here: https://offpress.app
 
 > This blog is also powered by Offpress.
 
