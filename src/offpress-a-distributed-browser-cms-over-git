@@ -5,7 +5,7 @@ description: >-
   Offpress is a distributed blogging engine powered by git, that works directly
   in your browser.
 image: assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c
-updated: 1612426380444
+updated: 1612426786099
 draft: false
 ---
 ![88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c](assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c)
@@ -93,7 +93,15 @@ To turn an image into a full width image, select the image markup and click the 
 
 ![9851f0fb4e39eb36dc52358f68beb79878d1e8222c288b7979486dbae09ba65e](assets/9851f0fb4e39eb36dc52358f68beb79878d1e8222c288b7979486dbae09ba65e)
 
-## 5. Why do I do everything on Offbase.org instead of Offpress.app?
+## 5. Can I see a preview before publishing?
+
+Yes! In fact this is one of the cool things about Offpress. Every time you save a post, the markdown gets compiled into the final HTML version, and you can see the HTML by clicking the "preview" button at the top right corner:
+
+![0aa8d047becb95aeddc65e27653ddc612ecb96f8f1b1cb1dd28af39c82978ff8](assets/0aa8d047becb95aeddc65e27653ddc612ecb96f8f1b1cb1dd28af39c82978ff8)
+
+This is powered by a technology called Service Worker, which powers Offpress. This lets you view HTML preview without having to run a server because Offpress--powered by Offbase--creates a self-contained virtual server environment directly in the browser. So when you press the preview button you will see the web page open in an offbase.org domain URL, but it's actually being served from your local browser!
+
+## 6. Why do I do everything on Offbase.org instead of Offpress.app?
 
 Offpress is powered by Offbase. When you build an application powered by Offbase, it gets downloaded to localstorage at Offbase.org. (This is necessary because of the technology called Service Worker, which Offbase uses, but this is a story for another day). 
 
@@ -104,7 +112,7 @@ Windows : Powerpoint = Offbase : Offpress
 ```
 
 
-## 6. Where can I find an Offpress documentation?
+## 7. Where can I find an Offpress documentation?
 
 I will discuss below, but for now there is no documentation for Offpress. I wanted to release the Offpress application itself as a standalone first.
 
@@ -115,7 +123,7 @@ That said, everything is already completely open, so those of you who are advent
 - See https://github.com/offbaseorg/offpress for the actual app logic
 - See https://github.com/offbaseorg/offpress-bootstrap for the bootstrap config. THIS is the file you download, which in turn triggers downloads of all the dependencies.
 
-## 7. How do I support custom domains?
+## 8. How do I support custom domains?
 
 You can do this in the settings page.
 
@@ -127,13 +135,13 @@ Then add your custom domain in the custom domain field:
 
 ![16ff59cafcd160a65cd964967378fd2bdcdcd03775eabc20bac5e4a79b6fe7c6](assets/16ff59cafcd160a65cd964967378fd2bdcdcd03775eabc20bac5e4a79b6fe7c6)
 
-## 8. How do I support RSS feed?
+## 9. How do I support RSS feed?
 
 Go to the settings page and fill out the "website base URL" field. Make sure to end the URL with `/`, and include the full URL including the `https` or `http` part.
 
 ![a9e57b7edf7c669d78cf518f696f869db5b40ac13b8f9c4419c0a24eaf4cdd59](assets/a9e57b7edf7c669d78cf518f696f869db5b40ac13b8f9c4419c0a24eaf4cdd59)
 
-## 9. How to customize the blog name?
+## 10. How to customize the blog name?
 
 You can do this inside the settings page too.
 
@@ -146,7 +154,7 @@ This Offpress release is the first step. For starters, Offpress itself is very e
 Also I have many things on the to-do list including:
 
 1. **Release Offpress documentation:** So you can build your own themes, build your own plugins, and even build your own custom CMS fork!
-2. **Release Offbase:** I still haven't explained in detail how Offbase works. But Offbase is a platform that lets you build apps like Offpress. I need to write some documentation on this too, so people can build their own **distributed web apps powered by git**.
+2. **Release Offbase:** I still haven't explained in detail how [Offbase](https://offbase.org) works, as well as its APIs. Offbase is a platform that lets you build apps like Offpress, and the API itself is already completely open for anyone to build on. But I need to write some documentation on this too, so people can build their own **distributed web apps powered by git** easily. (Or you can look into the Offpress source code and reverse engineer if you can't wait until I release the docs)
 
 Offbase looks simple from the user point of view but it has a lot of moving pieces. I will explain all of this in detail over the coming weeks through examples, documentations and blog posts, so stay tuned.
 

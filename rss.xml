@@ -4,7 +4,7 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Feb 2021 08:13:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Feb 2021 08:19:56 GMT</lastBuildDate>
         <item>
             <title><![CDATA[A distributed CMS in a browser]]></title>
             <description><![CDATA[<p><img src="https://blog.offbase.org/assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c" alt="88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c"></p>
@@ -62,12 +62,16 @@
 <p><img src="https://blog.offbase.org/assets/a4a779a439bd331e7ca8f5806165d28ef21bb9694a8b22b73dfc56ae556fed3b" alt="a4a779a439bd331e7ca8f5806165d28ef21bb9694a8b22b73dfc56ae556fed3b"></p>
 <p>To turn an image into a full width image, select the image markup and click the <code>((( )))</code> button, you&#39;ll see that it inserts a <code>&lt;div class=&#39;full&#39;&gt;&lt;/div&gt;</code> wrapper around the selected block:</p>
 <p><img src="https://blog.offbase.org/assets/9851f0fb4e39eb36dc52358f68beb79878d1e8222c288b7979486dbae09ba65e" alt="9851f0fb4e39eb36dc52358f68beb79878d1e8222c288b7979486dbae09ba65e"></p>
-<h2 id="5-why-do-i-do-everything-on-offbaseorg-instead-of-offpressapp">5. Why do I do everything on Offbase.org instead of Offpress.app?</h2>
+<h2 id="5-can-i-see-a-preview-before-publishing">5. Can I see a preview before publishing?</h2>
+<p>Yes! In fact this is one of the cool things about Offpress. Every time you save a post, the markdown gets compiled into the final HTML version, and you can see the HTML by clicking the &quot;preview&quot; button at the top right corner:</p>
+<p><img src="https://blog.offbase.org/assets/0aa8d047becb95aeddc65e27653ddc612ecb96f8f1b1cb1dd28af39c82978ff8" alt="0aa8d047becb95aeddc65e27653ddc612ecb96f8f1b1cb1dd28af39c82978ff8"></p>
+<p>This is powered by a technology called Service Worker, which powers Offpress. This lets you view HTML preview without having to run a server because Offpress--powered by Offbase--creates a self-contained virtual server environment directly in the browser. So when you press the preview button you will see the web page open in an offbase.org domain URL, but it&#39;s actually being served from your local browser!</p>
+<h2 id="6-why-do-i-do-everything-on-offbaseorg-instead-of-offpressapp">6. Why do I do everything on Offbase.org instead of Offpress.app?</h2>
 <p>Offpress is powered by Offbase. When you build an application powered by Offbase, it gets downloaded to localstorage at Offbase.org. (This is necessary because of the technology called Service Worker, which Offbase uses, but this is a story for another day). </p>
 <p>Basically, think of the offbase.org domain as your local computer where you download applications. Offpress is one of them. So you always go to offbase.org to use any offbase app. Here&#39;s a good analogy:</p>
 <pre><code>Windows : Powerpoint = Offbase : Offpress
 </code></pre>
-<h2 id="6-where-can-i-find-an-offpress-documentation">6. Where can I find an Offpress documentation?</h2>
+<h2 id="7-where-can-i-find-an-offpress-documentation">7. Where can I find an Offpress documentation?</h2>
 <p>I will discuss below, but for now there is no documentation for Offpress. I wanted to release the Offpress application itself as a standalone first.</p>
 <p>But it&#39;s coming. Soon.</p>
 <p>That said, everything is already completely open, so those of you who are adventurous can actually build anything you want, including something like Offpress. Check out the Offpress source code. Just a hint:</p>
@@ -75,16 +79,16 @@
 <li>See <a href="https://github.com/offbaseorg/offpress">https://github.com/offbaseorg/offpress</a> for the actual app logic</li>
 <li>See <a href="https://github.com/offbaseorg/offpress-bootstrap">https://github.com/offbaseorg/offpress-bootstrap</a> for the bootstrap config. THIS is the file you download, which in turn triggers downloads of all the dependencies.</li>
 </ul>
-<h2 id="7-how-do-i-support-custom-domains">7. How do I support custom domains?</h2>
+<h2 id="8-how-do-i-support-custom-domains">8. How do I support custom domains?</h2>
 <p>You can do this in the settings page.</p>
 <p>Go to the main page of your app and click the gear button at the top right corner (You&#39;ll see the &quot;settings&quot; tooltip when you hover over):</p>
 <p><img src="https://blog.offbase.org/assets/67b109440bccd65cb6cbf36d602b492eca85625e391bc2950a5bea3e61b28cb2" alt="67b109440bccd65cb6cbf36d602b492eca85625e391bc2950a5bea3e61b28cb2"></p>
 <p>Then add your custom domain in the custom domain field:</p>
 <p><img src="https://blog.offbase.org/assets/16ff59cafcd160a65cd964967378fd2bdcdcd03775eabc20bac5e4a79b6fe7c6" alt="16ff59cafcd160a65cd964967378fd2bdcdcd03775eabc20bac5e4a79b6fe7c6"></p>
-<h2 id="8-how-do-i-support-rss-feed">8. How do I support RSS feed?</h2>
+<h2 id="9-how-do-i-support-rss-feed">9. How do I support RSS feed?</h2>
 <p>Go to the settings page and fill out the &quot;website base URL&quot; field. Make sure to end the URL with <code>/</code>, and include the full URL including the <code>https</code> or <code>http</code> part.</p>
 <p><img src="https://blog.offbase.org/assets/a9e57b7edf7c669d78cf518f696f869db5b40ac13b8f9c4419c0a24eaf4cdd59" alt="a9e57b7edf7c669d78cf518f696f869db5b40ac13b8f9c4419c0a24eaf4cdd59"></p>
-<h2 id="9-how-to-customize-the-blog-name">9. How to customize the blog name?</h2>
+<h2 id="10-how-to-customize-the-blog-name">10. How to customize the blog name?</h2>
 <p>You can do this inside the settings page too.</p>
 <hr>
 <h1 id="next-steps">Next Steps</h1>
@@ -92,7 +96,7 @@
 <p>Also I have many things on the to-do list including:</p>
 <ol>
 <li><strong>Release Offpress documentation:</strong> So you can build your own themes, build your own plugins, and even build your own custom CMS fork!</li>
-<li><strong>Release Offbase:</strong> I still haven&#39;t explained in detail how Offbase works. But Offbase is a platform that lets you build apps like Offpress. I need to write some documentation on this too, so people can build their own <strong>distributed web apps powered by git</strong>.</li>
+<li><strong>Release Offbase:</strong> I still haven&#39;t explained in detail how <a href="https://offbase.org">Offbase</a> works, as well as its APIs. Offbase is a platform that lets you build apps like Offpress, and the API itself is already completely open for anyone to build on. But I need to write some documentation on this too, so people can build their own <strong>distributed web apps powered by git</strong> easily. (Or you can look into the Offpress source code and reverse engineer if you can&#39;t wait until I release the docs)</li>
 </ol>
 <p>Offbase looks simple from the user point of view but it has a lot of moving pieces. I will explain all of this in detail over the coming weeks through examples, documentations and blog posts, so stay tuned.</p>
 <p>To stay in touch, here are the options:</p>
@@ -106,7 +110,7 @@
 ]]></description>
             <link>https://blog.offbase.org/post/offpress-a-distributed-browser-cms-over-git</link>
             <guid isPermaLink="true">https://blog.offbase.org/post/offpress-a-distributed-browser-cms-over-git</guid>
-            <pubDate>Thu, 04 Feb 2021 08:13:00 GMT</pubDate>
+            <pubDate>Thu, 04 Feb 2021 08:19:46 GMT</pubDate>
         </item>
     </channel>
 </rss>
