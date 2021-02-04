@@ -19,8 +19,8 @@
         line-height: 20px;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
-        background: white;
-        color: rgba(0,0,0,0.7);
+        background: #25292D;
+        color: rgba(255,255,255,0.9);
       }
       main > hr {
         background: rgba(0,0,0,0.1);
@@ -61,7 +61,7 @@
         text-decoration: none;
       }
       nav h1 a {
-        color: rgba(0,0,0,0.8);
+        color: white;
       }
       h1 a {
         text-decoration: none;
@@ -83,7 +83,7 @@
       main {
         margin: 0px auto;
       }
-      main > :not(img):not(blockquote) {
+      main > :not(img):not(blockquote):not(ol):not(ul) {
         padding-left: 10px;
         padding-right: 10px;
         box-sizing: border-box;
@@ -111,9 +111,11 @@
         font-family: Georgia;
         font-style: italic;
         padding-left: 20px;
+        width: 100%;
+        box-sizing: border-box;
       }
       pre {
-        background: rgba(0,0,0,0.8);
+        background: rgba(0,0,0,0.3);
         padding: 10px;
         overflow: auto;
         color: white;
@@ -124,7 +126,7 @@
       .meta {
         display: flex;
         max-width: 800px;
-        color: rgba(0,0,0,0.6);
+        color: silver;
         margin: 0 auto;
         padding: 10px;
         box-sizing: border-box;
