@@ -83,7 +83,7 @@
       main {
         margin: 0px auto;
       }
-      main > p {
+      main > :not(img) {
         padding: 10px;
         box-sizing: border-box;
       }
@@ -96,6 +96,7 @@
       main > * {
         display: block;
         max-width: 800px;
+        width: 100%;
         margin: 20px auto !important;
       }
       main img {
