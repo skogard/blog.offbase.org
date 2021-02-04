@@ -4,7 +4,7 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Feb 2021 06:29:34 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Feb 2021 06:33:46 GMT</lastBuildDate>
         <item>
             <title><![CDATA[Offpress: A distributed browser CMS over Git]]></title>
             <description><![CDATA[<p><img src="https://blog.offbase.org/assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c" alt="88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c"></p>
@@ -38,8 +38,9 @@
 <h2 id="1-how-can-it-work-without-a-server">1. How can it work without a server?</h2>
 <p>Offpress is powered by <a href="https://offbase.org">Offbase</a>, which lets you build web apps that replace servers with Git, letting you build distributed web apps. Offbase itself is powered by many technologies, including:</p>
 <ol>
-<li>Isomorphic Git: Used to take care of all the git operations in the browser and implement a virtual file system.</li>
-<li>Service Worker: Used to implement a self contained backend that runs purely inside the browser, locally.</li>
+<li><a href="https://github.com/isomorphic-git/isomorphic-git">Isomorphic Git:</a> Used to take care of all the git operations in the browser and implement a virtual file system.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Service Worker</a>: Used to implement a self contained backend that runs purely inside the browser, locally.</li>
+<li><a href="https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/">Native ES Modules</a>: Offbase is powered by vanila JavaScript and native ES modules. No complicated and bloated compile and build bundles. Everything works 100% browser native, using vanilla HTTP, JavaScript, and CSS.</li>
 </ol>
 <p>Check out <a href="https://offbase.org">Offbase website</a> to learn more.</p>
 <h2 id="2-where-is-my-site-hosted">2. Where is my site hosted?</h2>
@@ -84,7 +85,7 @@
 ]]></description>
             <link>https://blog.offbase.org/post/offpress-a-distributed-browser-cms-over-git</link>
             <guid isPermaLink="true">https://blog.offbase.org/post/offpress-a-distributed-browser-cms-over-git</guid>
-            <pubDate>Thu, 04 Feb 2021 06:29:26 GMT</pubDate>
+            <pubDate>Thu, 04 Feb 2021 06:33:38 GMT</pubDate>
         </item>
     </channel>
 </rss>
