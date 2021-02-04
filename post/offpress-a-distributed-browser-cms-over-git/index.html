@@ -141,7 +141,7 @@
     </nav>
     <header><h1>Offpress: A distributed browser CMS over Git</h1></header>
     <div class='meta'>
-      <div class='updated'>1612420983414</div>
+      <div class='updated'>1612422626705</div>
       <div class='flexible'></div>
     </div>
     <main><p><img src="../../assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c" alt="88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c"></p>
@@ -152,12 +152,12 @@
 <p>Using Offpress should be as easy as using any other blogging service, with one difference: Offpress does not store anything. Instead it lets you easily store and serve your site from your own Git repository.</p>
 <p>Traditional CMS&#39;s store content on the CMS service provider&#39;s server, which means all requests need to go through the CMS server host&#39;s centralized server farm:</p>
 <p><img src="../../assets/8413689e170587111a47d2252407528ab8ca1e4461a006ab81a5c15c6a44d709" alt="8413689e170587111a47d2252407528ab8ca1e4461a006ab81a5c15c6a44d709"></p>
-<p>On the other hand, Offpress lets you store and serve your content directly from your git repository:</p>
+<p>On the other hand, Offpress lets you store your content in your git repository, and serve your content by pushing the git to a CDN provider. This means you get to own your content without having to run a database server, and the content gets served directly from the CDNs so it&#39;s much cheaper, more efficient, and faster than a database backed CMS&#39;s:</p>
 <p><img src="../../assets/6167f38f19e4c2fe118ae6d9d46c7d1838a51711f0e935e732232568db712ffd" alt="6167f38f19e4c2fe118ae6d9d46c7d1838a51711f0e935e732232568db712ffd"></p>
 <blockquote>
-<p>If you&#39;re aware of static site generators, this part is actually the same for all static site generators. The benefit Offpress brings to the table is that it makes it significantly easy to publish these static sites. Previously it was difficult to do this entirely in a browser without relying on a 3rd party.</p>
+<p>If you&#39;re aware of static site generators, this part is actually the same for all static site generators. The main value proposition of Offpress is that it makes it significantly easier. Previously it was difficult to do this entirely in a browser without relying on a 3rd party. Also the learning curve was high and non-developers couldn&#39;t take advantage of this approach.</p>
 </blockquote>
-<p>Offbase takes care of the integration part seamlessly so you don&#39;t have to do anything, other than having a GitHub account:</p>
+<p>Offbase takes care of the integration part seamlessly so you don&#39;t have to do anything. All you need is a GitHub account.</p>
 <blockquote>
 <p>Currently Offbase only supports pushing to GitHub but will support other git repositories as the system matures.</p>
 </blockquote>
@@ -204,21 +204,28 @@
 <p>Basically, think of the offbase.org domain as your local computer where you download applications. Offpress is one of them. So you always go to offbase.org to use any offbase app. Here&#39;s a good analogy:</p>
 <pre><code>Windows : Powerpoint = Offbase : Offpress
 </code></pre>
-<hr>
-<h1 id="next-steps">Next Steps</h1>
-<p>Just to be clear, Offpress is just an app release. There are many things on the to-do list including:</p>
-<ol>
-<li>Release Offpress documentation: So you can build your own themes, build your own plugins, and even build your own custom CMS fork!</li>
-<li>Release Offbase: I still haven&#39;t explained in detail how Offbase works. But Offbase is a platform that lets you build apps like Offpress. I need to write some documentation on this too, so people can build their own <strong>distributed web apps powered by git</strong>.</li>
-</ol>
-<p>There are more, but I thought it&#39;s best to release Offpress first, since this is an end user app that anyone can use immediately.</p>
-<p>I&#39;ve spent a lot of time designing the core engine (Offbase) to make sure anything powered by Offbase (including Offpress) is extremely extensible. I will explain all of this in detail over the coming weeks through documentations and blog posts (which I will share through the email newsletter, sign up if you haven&#39;t: <a href="https://docs.offbase.org/invite/">https://docs.offbase.org/invite/</a>) so stay tuned. </p>
+<h2 id="6-where-can-i-find-an-offpress-documentation-so-i-can-hack-it">6. Where can I find an Offpress documentation so I can hack it?</h2>
+<p>I will discuss below, but for now there is no documentation for Offpress. I wanted to release the Offpress application itself as a standalone first.</p>
+<p>But it&#39;s coming. Soon.</p>
 <p>That said, everything is already completely open, so those of you who are adventurous can actually build anything you want, including something like Offpress. Check out the Offpress source code. Just a hint:</p>
 <ul>
 <li>See <a href="https://github.com/offbaseorg/offpress">https://github.com/offbaseorg/offpress</a> for the actual app logic</li>
 <li>See <a href="https://github.com/offbaseorg/offpress-bootstrap">https://github.com/offbaseorg/offpress-bootstrap</a> for the bootstrap config. THIS is the file you download, which in turn triggers downloads of all the dependencies.</li>
 </ul>
-<p>Also, I might start tweeting short snippets about the whole development process in realtime so if you&#39;re interested in participating, or if you have any questions or want to provide feedback, be sure to follow me on Twitter: <a href="https://twitter.com/skogard">https://twitter.com/skogard</a></p>
+<hr>
+<h1 id="next-steps">Next Steps</h1>
+<p>This Offpress release is the first step. I have many things on the to-do list including:</p>
+<ol>
+<li><strong>Release Offpress documentation:</strong> So you can build your own themes, build your own plugins, and even build your own custom CMS fork!</li>
+<li><strong>Release Offbase:</strong> I still haven&#39;t explained in detail how Offbase works. But Offbase is a platform that lets you build apps like Offpress. I need to write some documentation on this too, so people can build their own <strong>distributed web apps powered by git</strong>.</li>
+</ol>
+<p>Offbase looks simple from the user point of view but it has a lot of moving pieces. I will explain all of this in detail over the coming weeks through examples, documentations and blog posts, so stay tuned.</p>
+<p>To stay in touch, here are the options:</p>
+<ol>
+<li>Newsletter: <a href="https://docs.offbase.org/invite/">https://docs.offbase.org/invite/</a> - I will send occasional newsletters with the blog posts.</li>
+<li>Twitter: <a href="https://twitter.com/skogard">https://twitter.com/skogard</a> - I might start sharing the whole development process openly in realtime so if you&#39;re interested in participating, or have questions, or just want to provide feedback, follow me.</li>
+</ol>
+<p>p.s. If you ever start blogging with Offpress, please make sure to tag me or tag #offpress and I can share them with others :)</p>
 </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js"></script>
     <script>
