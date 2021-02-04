@@ -5,7 +5,7 @@ description: >-
   Offpress is a distributed blogging engine powered by git, that works directly
   in your browser.
 image: assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c
-updated: 1612424244296
+updated: 1612426380444
 draft: false
 ---
 ![88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c](assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c)
@@ -104,7 +104,7 @@ Windows : Powerpoint = Offbase : Offpress
 ```
 
 
-## 6. Where can I find an Offpress documentation so I can hack it?
+## 6. Where can I find an Offpress documentation?
 
 I will discuss below, but for now there is no documentation for Offpress. I wanted to release the Offpress application itself as a standalone first.
 
@@ -133,11 +133,17 @@ Go to the settings page and fill out the "website base URL" field. Make sure to 
 
 ![a9e57b7edf7c669d78cf518f696f869db5b40ac13b8f9c4419c0a24eaf4cdd59](assets/a9e57b7edf7c669d78cf518f696f869db5b40ac13b8f9c4419c0a24eaf4cdd59)
 
+## 9. How to customize the blog name?
+
+You can do this inside the settings page too.
+
 ---
 
 # Next Steps
 
-This Offpress release is the first step. I have many things on the to-do list including:
+This Offpress release is the first step. For starters, Offpress itself is very early so there's lots of room for optimization. 
+
+Also I have many things on the to-do list including:
 
 1. **Release Offpress documentation:** So you can build your own themes, build your own plugins, and even build your own custom CMS fork!
 2. **Release Offbase:** I still haven't explained in detail how Offbase works. But Offbase is a platform that lets you build apps like Offpress. I need to write some documentation on this too, so people can build their own **distributed web apps powered by git**.
@@ -147,7 +153,7 @@ Offbase looks simple from the user point of view but it has a lot of moving piec
 To stay in touch, here are the options:
 
 1. Newsletter: [https://docs.offbase.org/invite/](https://docs.offbase.org/invite/) - I will send occasional newsletters with the blog posts.
-2. Twitter: [https://twitter.com/skogard](https://twitter.com/skogard) - I might start sharing the whole development process openly in realtime so if you're interested in participating, or have questions, or just want to provide feedback, follow me.
+2. Twitter: [https://twitter.com/skogard](https://twitter.com/skogard) - I will start sharing the whole development process openly in realtime, and share examples and try to have open conversations on Twitter, if you're interested, follow me.
 3. RSS: [https://blog.offbase.org/rss.xml](https://blog.offbase.org/rss.xml) follow the offbase blog with an RSS reader (yes, Offpress automatically generates RSS feeds too!)
 
 p.s. If you ever start blogging with Offpress, please make sure to tag me or tag #offpress and I can share them with others :)
