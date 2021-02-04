@@ -20,10 +20,12 @@
   },
   "settings": {
     "BASE": "",
+    "ROOT": "/home",
     "SRC": "/home/src",
     "DEST": "/home",
     "NAME": "Offpress",
     "THEME": "/lib/theme",
+    "CNAME": "",
     "PAGE": {
       "CHUNK": 6
     },
@@ -41,6 +43,9 @@
   }, {
     "path": "settings.BASE",
     "label": "Website base URL (Must end with /, for example: https://blog.offpress.app/)"
+  }, {
+    "path": "settings.CNAME",
+    "label": "Custom domain (ex: blog.offbase.org)"
   }, {
     "path": "settings.FEED.CHUNK",
     "label": "Number of posts in the RSS feed"
