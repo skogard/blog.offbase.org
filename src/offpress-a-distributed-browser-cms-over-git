@@ -1,0 +1,115 @@
+---
+permalink: offpress-a-distributed-browser-cms-over-git
+title: 'Offpress: A distributed browser CMS over Git'
+description: >-
+  Offpress is a distributed blogging engine powered by git, that works directly
+  in your browser.
+image: assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c
+updated: 1612417359709
+draft: false
+---
+![88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c](assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c)
+
+Offpress is a distributed blogging engine powered by [git](https://git-scm.com/), that works directly in your browser. You can try it here: https://offpress.app
+
+> This blog is also powered by Offpress.
+
+Using Offpress should be as easy as using any other blogging service, with one difference: Offpress does not store anything. Instead it lets you easily store and serve your site from your own Git repository.
+
+Traditional CMS's store content on the CMS service provider's server, which means all requests need to go through the CMS server host's centralized server farm:
+
+![8413689e170587111a47d2252407528ab8ca1e4461a006ab81a5c15c6a44d709](assets/8413689e170587111a47d2252407528ab8ca1e4461a006ab81a5c15c6a44d709)
+
+On the other hand, Offpress lets you store and serve your content directly from your git repository:
+
+![6167f38f19e4c2fe118ae6d9d46c7d1838a51711f0e935e732232568db712ffd](assets/6167f38f19e4c2fe118ae6d9d46c7d1838a51711f0e935e732232568db712ffd)
+
+> If you're aware of static site generators, this part is actually the same for all static site generators. The benefit Offpress brings to the table is that it makes it significantly easy to publish these static sites. Previously it was difficult to do this entirely in a browser without relying on a 3rd party.
+
+Offbase takes care of the integration part seamlessly so you don't have to do anything, other than having a GitHub account:
+
+> Currently Offbase only supports pushing to GitHub but will support other git repositories as the system matures.
+
+---
+
+# How does it all work?
+
+Here's a video where you can quickly understand how this thing works (Note that Offbase is the engine that powers Offpress, and in this video I simply mention Offpress as "blogging package"):
+
+<iframe src="https://www.youtube.com/embed/pVrkrToSFyI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+If you're familar with static site generators, Offpress is essentially a static site generator in a browser. Being able to edit, build, and deploy static sites directly inside a browser is a gamechanger because it solves the one problem traditional static site generators had: Only developers can use them because of its complexity. Unless you are a developer, you can't easily use static site generators because the setup process and understanding the structure is not so easy. Also, the deployment step is definitely not easy for developers since you have to do it all in the terminal.
+
+Of course, there are some services that provide a better UX on top of the traditional static site generators, but all of these services operate a build server behind the scenes, which means at some point you will need to start paying them since that's their business model.
+
+Offpress is a blogging engine that has zero learning curve AND you can own forever, without getting locked into a 3rd party, so you can use the system for free forever.
+
+---
+
+# FAQ
+
+Let me answer some potential questions:
+
+## 1. How can it work without a server?
+
+Offpress is powered by [Offbase](https://offbase.org), which lets you build web apps that replace servers with Git, letting you build distributed web apps. Offbase itself is powered by many technologies, including:
+
+1. Isomorphic Git: Used to take care of all the git operations in the browser and implement a virtual file system.
+2. Service Worker: Used to implement a self contained backend that runs purely inside the browser, locally.
+
+Check out [Offbase website](https://offbase.org) to learn more.
+
+## 2. Where is my site hosted?
+
+Offpress by default uses GitHub pages (gotta start from somewhere!), so currently you can push to a GitHub repository to publish your blog. If you are not familiar with GitHub pages, it's a CDN service that GitHub provides for FREE, where you can simply push a static site HTML and it will serve the site for you.
+
+Your site will be available at: `https://<GITHUB USERNAME>.github.io/<REPO NAME>/blog/`.
+
+For example, if your repository name is `https://github.com/skogard/myblog`, the website will be published at `https://skogard.github.io/myblog/blog/`
+
+## 3. Can I host my site somewhere else?
+
+There are vaious CDN services that synchronize automatically with GitHub and host your site for you. Since these services are dedicated to static site web hosting and serverless architecture, they tend to have a lot of great features and most importantly, the site refreshes instantly (Unlike GitHub pages which takes up to a minute or so to refresh whenever you publish).
+
+Here are some of the CDN services I recommend:
+
+1. Vercel
+2. Netlify
+
+Couldn't include Cloudflare because it seems to be in beta.
+
+## 4. How to do full width images and medium width images?
+
+Offpress supports three width types for images: **full**, **medium**, and **normal**:
+
+![b7b2c6ba77f0a509beb685c544b17f4b08f750a94da7e9a59fa7066e3e0b448d](assets/b7b2c6ba77f0a509beb685c544b17f4b08f750a94da7e9a59fa7066e3e0b448d)
+
+To turn an image into a medium width image, just select an image markup block and click the `(( ))` toolbar button. You'll see that it inserts a `<div class='medium'></div>` wrapper around the image block.
+
+![a4a779a439bd331e7ca8f5806165d28ef21bb9694a8b22b73dfc56ae556fed3b](assets/a4a779a439bd331e7ca8f5806165d28ef21bb9694a8b22b73dfc56ae556fed3b)
+
+To turn an image into a full width image, select the image markup and click the `((( )))` button, you'll see that it inserts a `<div class='full'></div>` wrapper around the selected block:
+
+![9851f0fb4e39eb36dc52358f68beb79878d1e8222c288b7979486dbae09ba65e](assets/9851f0fb4e39eb36dc52358f68beb79878d1e8222c288b7979486dbae09ba65e)
+
+## 5. Why do I do everything on Offbase.org instead of Offpress.app?
+
+Offpress is powered by Offbase. When you build an application powered by Offbase, it gets downloaded to localstorage at Offbase.org. (This is necessary because of the technology called Service Worker, which Offbase uses, but this is a story for another day). 
+
+Basically, think of the offbase.org domain as your local computer where you download applications. Offpress is one of them. So you always go to offbase.org to use any offbase app. Here's a good analogy:
+
+```
+Windows : Powerpoint = Offbase : Offpress
+```
+
+---
+
+# Next Steps
+
+This is the first step.
+
+I've spent a lot of time designing the core engine (Offbase) to make sure anything powered by Offbase (including Offpress) is extremely extensible. And if you look into the source code there's a lot going on.
+
+I will explain all of this in detail over the coming weeks through documentations and blog posts (which I will share through the email newsletter, sign up if you haven't: https://docs.offbase.org/invite/) so stay tuned. That said, everything is already open, so those of you who are adventurous should be able to easiliy check out the source code and build your own Offpress fork, or your own themes.
+
+Oh, also I might start tweeting short snippets about the whole development process in realtime so if you're interested in participating, or if you have any questions or want to provide feedback, be sure to follow me on Twitter: https://twitter.com/skogard
