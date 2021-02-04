@@ -4,19 +4,19 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Feb 2021 05:42:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Feb 2021 05:45:34 GMT</lastBuildDate>
         <item>
             <title><![CDATA[Offpress: A distributed browser CMS over Git]]></title>
-            <description><![CDATA[<p><img src="../../assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c" alt="88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c"></p>
+            <description><![CDATA[<p><img src="https://blog.offpress.org/assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c" alt="88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c"></p>
 <p>Offpress is a distributed blogging engine powered by <a href="https://git-scm.com/">git</a>, that works directly in your browser. You can try it here: <a href="https://offpress.app">https://offpress.app</a></p>
 <blockquote>
 <p>This blog is also powered by Offpress.</p>
 </blockquote>
 <p>Using Offpress should be as easy as using any other blogging service, with one difference: Offpress does not store anything. Instead it lets you easily store and serve your site from your own Git repository.</p>
 <p>Traditional CMS&#39;s store content on the CMS service provider&#39;s server, which means all requests need to go through the CMS server host&#39;s centralized server farm:</p>
-<p><img src="../../assets/8413689e170587111a47d2252407528ab8ca1e4461a006ab81a5c15c6a44d709" alt="8413689e170587111a47d2252407528ab8ca1e4461a006ab81a5c15c6a44d709"></p>
+<p><img src="https://blog.offpress.org/assets/8413689e170587111a47d2252407528ab8ca1e4461a006ab81a5c15c6a44d709" alt="8413689e170587111a47d2252407528ab8ca1e4461a006ab81a5c15c6a44d709"></p>
 <p>On the other hand, Offpress lets you store and serve your content directly from your git repository:</p>
-<p><img src="../../assets/6167f38f19e4c2fe118ae6d9d46c7d1838a51711f0e935e732232568db712ffd" alt="6167f38f19e4c2fe118ae6d9d46c7d1838a51711f0e935e732232568db712ffd"></p>
+<p><img src="https://blog.offpress.org/assets/6167f38f19e4c2fe118ae6d9d46c7d1838a51711f0e935e732232568db712ffd" alt="6167f38f19e4c2fe118ae6d9d46c7d1838a51711f0e935e732232568db712ffd"></p>
 <blockquote>
 <p>If you&#39;re aware of static site generators, this part is actually the same for all static site generators. The benefit Offpress brings to the table is that it makes it significantly easy to publish these static sites. Previously it was difficult to do this entirely in a browser without relying on a 3rd party.</p>
 </blockquote>
@@ -56,11 +56,11 @@
 <p>Couldn&#39;t include Cloudflare because it seems to be in beta.</p>
 <h2 id="4-how-to-do-full-width-images-and-medium-width-images">4. How to do full width images and medium width images?</h2>
 <p>Offpress supports three width types for images: <strong>full</strong>, <strong>medium</strong>, and <strong>normal</strong>:</p>
-<p><img src="../../assets/b7b2c6ba77f0a509beb685c544b17f4b08f750a94da7e9a59fa7066e3e0b448d" alt="b7b2c6ba77f0a509beb685c544b17f4b08f750a94da7e9a59fa7066e3e0b448d"></p>
+<p><img src="https://blog.offpress.org/assets/b7b2c6ba77f0a509beb685c544b17f4b08f750a94da7e9a59fa7066e3e0b448d" alt="b7b2c6ba77f0a509beb685c544b17f4b08f750a94da7e9a59fa7066e3e0b448d"></p>
 <p>To turn an image into a medium width image, just select an image markup block and click the <code>(( ))</code> toolbar button. You&#39;ll see that it inserts a <code>&lt;div class=&#39;medium&#39;&gt;&lt;/div&gt;</code> wrapper around the image block.</p>
-<p><img src="../../assets/a4a779a439bd331e7ca8f5806165d28ef21bb9694a8b22b73dfc56ae556fed3b" alt="a4a779a439bd331e7ca8f5806165d28ef21bb9694a8b22b73dfc56ae556fed3b"></p>
+<p><img src="https://blog.offpress.org/assets/a4a779a439bd331e7ca8f5806165d28ef21bb9694a8b22b73dfc56ae556fed3b" alt="a4a779a439bd331e7ca8f5806165d28ef21bb9694a8b22b73dfc56ae556fed3b"></p>
 <p>To turn an image into a full width image, select the image markup and click the <code>((( )))</code> button, you&#39;ll see that it inserts a <code>&lt;div class=&#39;full&#39;&gt;&lt;/div&gt;</code> wrapper around the selected block:</p>
-<p><img src="../../assets/9851f0fb4e39eb36dc52358f68beb79878d1e8222c288b7979486dbae09ba65e" alt="9851f0fb4e39eb36dc52358f68beb79878d1e8222c288b7979486dbae09ba65e"></p>
+<p><img src="https://blog.offpress.org/assets/9851f0fb4e39eb36dc52358f68beb79878d1e8222c288b7979486dbae09ba65e" alt="9851f0fb4e39eb36dc52358f68beb79878d1e8222c288b7979486dbae09ba65e"></p>
 <h2 id="5-why-do-i-do-everything-on-offbaseorg-instead-of-offpressapp">5. Why do I do everything on Offbase.org instead of Offpress.app?</h2>
 <p>Offpress is powered by Offbase. When you build an application powered by Offbase, it gets downloaded to localstorage at Offbase.org. (This is necessary because of the technology called Service Worker, which Offbase uses, but this is a story for another day). </p>
 <p>Basically, think of the offbase.org domain as your local computer where you download applications. Offpress is one of them. So you always go to offbase.org to use any offbase app. Here&#39;s a good analogy:</p>
@@ -73,8 +73,8 @@
 <p>I will explain all of this in detail over the coming weeks through documentations and blog posts (which I will share through the email newsletter, sign up if you haven&#39;t: <a href="https://docs.offbase.org/invite/">https://docs.offbase.org/invite/</a>) so stay tuned. That said, everything is already open, so those of you who are adventurous should be able to easiliy check out the source code and build your own Offpress fork, or your own themes.</p>
 <p>Oh, also I might start tweeting short snippets about the whole development process in realtime so if you&#39;re interested in participating, or if you have any questions or want to provide feedback, be sure to follow me on Twitter: <a href="https://twitter.com/skogard">https://twitter.com/skogard</a></p>
 ]]></description>
-            <link>post/offpress-a-distributed-browser-cms-over-git</link>
-            <guid isPermaLink="true">post/offpress-a-distributed-browser-cms-over-git</guid>
+            <link>https://blog.offpress.org/post/offpress-a-distributed-browser-cms-over-git</link>
+            <guid isPermaLink="true">https://blog.offpress.org/post/offpress-a-distributed-browser-cms-over-git</guid>
             <pubDate>Thu, 04 Feb 2021 05:42:39 GMT</pubDate>
         </item>
     </channel>
