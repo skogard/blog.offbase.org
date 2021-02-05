@@ -4,13 +4,16 @@
         <description><![CDATA[Untitled RSS Feed]]></description>
         <link>http://github.com/dylang/node-rss</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 05 Feb 2021 06:48:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Feb 2021 16:44:49 GMT</lastBuildDate>
         <item>
             <title><![CDATA[Running a distributed blogging engine in a browser]]></title>
             <description><![CDATA[<p><img src="https://blog.offbase.org/assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c" alt="88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c"></p>
-<p>Offpress is a self-contained, distributed blogging engine powered by <a href="https://git-scm.com/">git</a>, that works directly in your browser. You can try it here: <a href="https://offpress.app">https://offpress.app</a></p>
+<p>Modern publishing platforms have an &quot;app first, content second&quot; philosophy. An application is built and deployed first, and the users automatically store their content in the centralized server, in a centralized format. This makes it difficult to move your content across platforms. For example, services like <a href="https://medium.com">Medium.com</a> or <a href="https://facebook.com">Facebook.com</a> let you export your entire history, but you can&#39;t really do much with it other than browse through it privately. <strong>This is because the content format itself is centralzied.</strong></p>
+<p>To implement a publishing platform that&#39;s distributed, you must start from &quot;content first, application second&quot; approach, where the content is portable, and you can plug in your content into any application easily.</p>
+<p><a href="https://offpress.app">Offpress</a> is a publishing platform that has the &quot;content first, application second&quot; philosophy. You can write once, store it in git, and distribute it anywhere, all inside your browser.</p>
+<p>Try it here: <a href="https://offpress.app">https://offpress.app</a></p>
 <blockquote>
-<p>This blog is also powered by Offpress.</p>
+<p>This blog itself is powered by Offpress.</p>
 </blockquote>
 <p>Using Offpress should be as easy as using any other blogging service, with one difference: Offpress does not store anything. Instead it lets you easily store and serve your site from your own Git repository.</p>
 <p>Traditional CMS&#39;s store content on the CMS service provider&#39;s server, which means all requests need to go through the CMS server host&#39;s centralized server farm:</p>
@@ -104,13 +107,14 @@
 <li>Newsletter: <a href="https://docs.offbase.org/invite/">https://docs.offbase.org/invite/</a> - I will send occasional newsletters with the blog posts.</li>
 <li>Twitter: <a href="https://twitter.com/skogard">https://twitter.com/skogard</a> - I will start sharing the whole development process openly in realtime, and share examples and try to have open conversations on Twitter, if you&#39;re interested, follow me.</li>
 <li>RSS: <a href="https://blog.offbase.org/rss.xml">https://blog.offbase.org/rss.xml</a> follow the offbase blog with an RSS reader (yes, Offpress automatically generates RSS feeds too!)</li>
+<li>Discord: <a href="https://discord.gg/sa24u6eRh6">https://discord.gg/sa24u6eRh6</a> ask questions if you run into any trouble.</li>
 </ol>
 <p>p.s. If you ever start blogging with Offpress, please make sure to tag me or tag #offpress and I can share them with others :)</p>
 <hr>
 ]]></description>
             <link>https://blog.offbase.org/post/offpress-a-distributed-browser-cms-over-git</link>
             <guid isPermaLink="true">https://blog.offbase.org/post/offpress-a-distributed-browser-cms-over-git</guid>
-            <pubDate>Fri, 05 Feb 2021 06:48:08 GMT</pubDate>
+            <pubDate>Fri, 05 Feb 2021 16:44:41 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -5,14 +5,20 @@ description: >-
   Offpress is a distributed blogging engine powered by git, that works directly
   in your browser.
 image: assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c
-updated: 1612507688414
+updated: 1612543481786
 draft: false
 ---
 ![88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c](assets/88dc06c67cc9069093938e86af7b19dff38de3b971204175354bd4766e940c0c)
 
-Offpress is a self-contained, distributed blogging engine powered by [git](https://git-scm.com/), that works directly in your browser. You can try it here: https://offpress.app
+Modern publishing platforms have an "app first, content second" philosophy. An application is built and deployed first, and the users automatically store their content in the centralized server, in a centralized format. This makes it difficult to move your content across platforms. For example, services like [Medium.com](https://medium.com) or [Facebook.com](https://facebook.com) let you export your entire history, but you can't really do much with it other than browse through it privately. **This is because the content format itself is centralzied.**
 
-> This blog is also powered by Offpress.
+To implement a publishing platform that's distributed, you must start from "content first, application second" approach, where the content is portable, and you can plug in your content into any application easily.
+
+[Offpress](https://offpress.app) is a publishing platform that has the "content first, application second" philosophy. You can write once, store it in git, and distribute it anywhere, all inside your browser.
+
+Try it here: https://offpress.app
+
+> This blog itself is powered by Offpress.
 
 Using Offpress should be as easy as using any other blogging service, with one difference: Offpress does not store anything. Instead it lets you easily store and serve your site from your own Git repository.
 
@@ -162,6 +168,7 @@ To stay in touch, here are the options:
 1. Newsletter: [https://docs.offbase.org/invite/](https://docs.offbase.org/invite/) - I will send occasional newsletters with the blog posts.
 2. Twitter: [https://twitter.com/skogard](https://twitter.com/skogard) - I will start sharing the whole development process openly in realtime, and share examples and try to have open conversations on Twitter, if you're interested, follow me.
 3. RSS: [https://blog.offbase.org/rss.xml](https://blog.offbase.org/rss.xml) follow the offbase blog with an RSS reader (yes, Offpress automatically generates RSS feeds too!)
+4. Discord: [https://discord.gg/sa24u6eRh6](https://discord.gg/sa24u6eRh6) ask questions if you run into any trouble.
 
 p.s. If you ever start blogging with Offpress, please make sure to tag me or tag #offpress and I can share them with others :)
 
